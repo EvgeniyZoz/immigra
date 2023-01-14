@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npx tailwindcss -i ./input.css -o ./css/style.css --watch"
+    "start": "npx tailwindcss -i ./css/main.css -o ./css/style.css --watch",
+    "scss": "node-sass --watch scss -o css"
   },
   "keywords": [],
   "author": "",
@@ -13,9 +14,11 @@
     "autoprefixer": "^10.4.13",
     "postcss": "^8.4.21",
     "postcss-import": "^15.1.0",
+    "postcss-nested": "^6.0.0",
     "tailwindcss": "^3.2.4"
   },
   "dependencies": {
+    "node-sass": "^8.0.0",
     "sass": "^1.57.1"
   }
 }

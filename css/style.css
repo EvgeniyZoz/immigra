@@ -513,12 +513,20 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.bg-yellow-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(234 179 8 / var(--tw-bg-opacity));
+.table {
+  display: table;
 }
 
-h2 {
+body h1 {
   --tw-bg-opacity: 1;
   background-color: rgb(34 197 94 / var(--tw-bg-opacity));
+  text-align: right;
+  font-size: 26px;
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+h1 {
+  border: 20px solid black;
+  background: orange;
 }

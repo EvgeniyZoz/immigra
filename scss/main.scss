@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    h1{
+        @apply bg-green-500 text-right text-black text-[26px];
+    }
+} 
+h1{
+    border:20px solid black;
+    background: orange;
+}
